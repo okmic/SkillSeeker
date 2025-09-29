@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "tg_bot_skill_seeker",
+            "script": "./build/index.js",
+            "instances": "max",
+            "exec_mode": "cluster",
+            "autorestart": true
+        }
+    ]
+}
