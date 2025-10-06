@@ -2,35 +2,25 @@
   "name": "tg_bot_skill_seeker",
   "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "dev": "nodemon",
-    "build": "tsc -p . && cp .env build/"
+    "dev": "nodemon src/cmd/main.ts"
   },
-  "keywords": [],
-  "author": "okmic <okmic.g@gmail.com>",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@prisma/client": "6.1.0",
-    "@types/uuid": "^10.0.0",
-    "autoprefixer": "^10.4.20",
-    "axios": "^1.7.9",
-    "basic-ftp": "^5.0.5",
-    "dotenv": "^16.4.5",
-    "ejs": "^3.1.10",
-    "grammy": "^1.33.0",
+    "@mikro-orm/core": "^6.5.7",
+    "@mikro-orm/mysql": "^6.5.7",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "grammy": "^1.38.2",
     "node-schedule": "^2.1.1",
-    "prisma-client": "^0.0.0",
-    "uuid": "^11.0.5"
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
-    "@types/dotenv": "^8.2.0",
-    "@types/node": "^22.5.5",
-    "@types/node-schedule": "^2.1.7",
-    "mysql2": "^3.12.0",
-    "nodemon": "^3.1.7",
-    "prisma": "^6.1.0",
+    "@mikro-orm/cli": "^6.5.7",
+    "@types/node": "^24.7.0",
+    "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2"
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
   }
 }

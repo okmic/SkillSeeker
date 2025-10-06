@@ -1,6 +1,5 @@
 import { NextFunction } from "grammy"
 import { MyContext } from "../types"
-import adminTelegramMenuService from "../services/admin.telegram.menu.service"
 import { PrismaClient } from "@prisma/client"
 
 class AdminTelegramMiddleware {

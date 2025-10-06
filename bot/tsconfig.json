@@ -8,7 +8,7 @@
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true
     },
-    "include": ["src/**/*"],
+    "include": ["src/**/*", "src/mikro-orm.config.ts", "mikro-orm.config.ts"],
     "exclude": ["node_modules"]
   }
   
